@@ -42,11 +42,6 @@ def second_supply_for_fourth_of_july(holiday_hash)
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
-  # holiday_hash is identical to the one above
-  # add the second argument, which is a supply, to BOTH the
-  # Christmas AND the New Year's arrays
-  #add_supply_to_winter_holidays iterates through winter holidays adds a supply to each one
-
   holiday_hash[:winter].each do |holiday, items|
     items << supply
     puts items
